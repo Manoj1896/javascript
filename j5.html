@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function show()
+		{
+			var n1=parseFloat(document.getElementById("t1").value);
+			var n2=parseFloat(document.getElementById("t2").value);
+			document.write("datatype:"+typeof(n1));
+			document.write("<br>total :"+(n1+n2));
+
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="t1" placeholder="enter no:1">
+	<input type="text" id="t2" placeholder="enter no:2">
+
+	<input type="button" value="Find Total" onclick="show()">
+</body>
+</html>
